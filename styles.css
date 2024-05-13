@@ -16,6 +16,11 @@ border: 1px solid #1D3557;
   display: flex;
 }
 }
+@media(min-with: 960px){
+  .cats{
+  display: flex;
+}
+}
 fieldset{
   margin: 1m;
   border: 0;
@@ -29,4 +34,3 @@ button{
 input{
   padding: 1em;
 }
-

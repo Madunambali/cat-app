@@ -1,0 +1,32 @@
+body{
+  background-color: aqua
+  
+}
+.cat{
+background-color:rgb(234, 215, 250);
+margin: 0.3cm ;
+padding: 1m ;
+border-radius: 1cm ;
+border: 1px solid #1D3557;
+}
+
+
+@media (min-width: 960px){
+   .cats{
+  display: flex;
+}
+}
+fieldset{
+  margin: 1m;
+  border: 0;
+
+}
+button{
+  margin: 1em;
+  border: 1px solid;
+  border-radius: 0.5m;
+}
+input{
+  padding: 1em;
+}
+

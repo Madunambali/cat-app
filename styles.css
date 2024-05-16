@@ -4,9 +4,9 @@ body{
 }
 .cat{
 background-color:rgb(234, 215, 250);
-margin: 0.3cm ;
-padding: 1m ;
-border-radius: 1cm ;
+margin: 0.3em ;
+padding: 1em ;
+border-radius: 1em ;
 border: 1px solid #1D3557;
 flex:1;
 }
@@ -14,11 +14,11 @@ flex:1;
   display: flex;
 }
 
-@media (min-width: 960px){
-   .cats{
+/* @media (min-width: 960px){
+   body{
   display: flex;
 }
-}
+}*/
 
 @media (min-width: 760px){
  /*apply this css if the page is wider than 760px*/

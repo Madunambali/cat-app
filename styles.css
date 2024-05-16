@@ -1,39 +1,57 @@
-body{
-  background-color: aqua
-  
+body {
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.cat{
-background-color:rgb(234, 215, 250);
-margin: 0.3em ;
-padding: 1em ;
-border-radius: 1em ;
-border: 1px solid #1D3557;
-flex:1;
-}
-.cats{
-  display: flex;
+.cat {
+    background-color: #816d49;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid #862349;
+    flex: 1;
 }
 
-@media (min-width: 960px){
-   body{
-  display: flex;
+.Cats {
+    display: flex;
 }
 
+/*@media (main-width : 960px) {
+    body {
+background-color: #e76f51;
 
-@media (max-width: 760px){
- /*apply this css if the page is wider than 760px*/
+  }
+
+    .Cats {
+        display: flex;
+    }
+
+}*/
+
+@media (min-width: 760px) {
+    /apply this css if the page is wider than 760px/
+
+   body {
+
+   
+       background-color: hsl(337, 63%, 37%) ;
+   } 
+       .Lenzi {
+        display: flex;
+    }
+
 }
 
-fieldset{
-  margin: 1m;
-  border: 0;
+   
+fieldset {
+    margin: 1em;
+    border: 0;
+}
 
+button {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
 }
-button{
-  margin: 1em;
-  border: 1px solid;
-  border-radius: 0.5m;
-}
-input{
-  padding: 1em;
+input {
+    padding: 1em;
 }

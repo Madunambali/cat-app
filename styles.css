@@ -14,13 +14,13 @@ flex:1;
   display: flex;
 }
 
-/* @media (min-width: 960px){
+@media (min-width: 960px){
    body{
   display: flex;
 }
-}*/
 
-@media (min-width: 760px){
+
+@media (max-width: 760px){
  /*apply this css if the page is wider than 760px*/
 }
 

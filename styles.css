@@ -10,7 +10,9 @@ border-radius: 1cm ;
 border: 1px solid #1D3557;
 flex:1;
 }
-
+.cats{
+  display: flex;
+}
 
 @media (min-width: 960px){
    .cats{

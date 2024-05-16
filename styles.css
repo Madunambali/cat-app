@@ -20,8 +20,8 @@ flex:1;
 }
 }
 
-@media (min-width: 960px){
- / 
+@media (min-width: 760px){
+ /*apply this css if the page is wider than 760px*/
 }
 
 fieldset{

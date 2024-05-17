@@ -14,13 +14,13 @@ flex: 1;
 
 @media (min-width: 960px){
    .cats{
-  display: flex;
+  flex:1;
 }
 }
 
 @media(max-with: 250px){
   .cats{
-  display: flex;
+    flex:1;
 }
 }
 
@@ -36,4 +36,6 @@ button{
 }
 input{
   padding: 0.3em;
+  margin: 0.5em;
+  border: 0.4em;
 }

@@ -4,10 +4,10 @@ body{
 }
 .cat{
 background-color:rgb(234, 215, 250);
-margin: 2cm ;
-padding: 2m ;
+margin: 0.3cm ;
+padding: 1m ;
 border-radius: 1cm ;
-border: 3px solid #1D3557;
+border: 1px solid #1D3557;
 }
 
 
@@ -16,13 +16,13 @@ border: 3px solid #1D3557;
   display: flex;
 }
 }
-@media(min-with: 960px){
+@media(max-with: 650px){
   .cats{
   display: flex;
 }
 }
 fieldset{
-  margin: 1em;
+  margin: 1m;
   border: 0;
 
 }
@@ -32,7 +32,5 @@ button{
   border-radius: 0.5m;
 }
 input{
-  padding: 0.7em;
-  border: 0.4px 
-  border-radius: 0.5m
+  padding: 1em;
 }

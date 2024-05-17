@@ -8,6 +8,7 @@ margin: 0.3cm ;
 padding: 1m ;
 border-radius: 1cm ;
 border: 1px solid #1D3557;
+flex: 1;
 }
 
 
@@ -16,11 +17,13 @@ border: 1px solid #1D3557;
   display: flex;
 }
 }
+/*
 @media(max-with: 650px){
   .cats{
   display: flex;
 }
-}
+}*/
+
 fieldset{
   margin: 1m;
   border: 0;

@@ -14,13 +14,13 @@ flex: 1;
 
 @media (min-width: 960px){
    .cats{
-  flex:1;
+  display:flex:1;
 }
 }
 
 @media(max-with: 250px){
   .cats{
-    flex:1;
+    display: flex:1;
 }
 }
 

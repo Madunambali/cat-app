@@ -17,12 +17,12 @@ flex: 1;
   display: flex;
 }
 }
-/*
+
 @media(max-with: 650px){
   .cats{
   display: flex;
 }
-}*/
+}
 
 fieldset{
   margin: 1m;
